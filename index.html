@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+
+    <!-- Links -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Store.</a>
+
+
+            <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu"
+            >
+            <span class="navbar-toggler-icon">
+                
+            </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="shop.html" class="nav-link">SHOP</a>
+                    </li>
+                  <li class="nav-item">
+                    <a href="contact.html" class="nav-link">CONTACT US</a>
+                </li>
+                </ul>
+                <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+                    <li><a class="nav-link" data-bs-toggle="modal" data-bs-target="#cart" href="#"><img src="image/cart.svg"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6  text-center text-sm-start mt-3">
+                    <h1 class="mb-3 text-warning">Best Store</h1>
+                    <p class="text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, repellat nisi impedit harum quae et vitae dolores corrupti ipsa nihil?
+                    </p>
+                    <div class="mt-4 text-center text-sm-start">
+                        <button class="btn text-white bg-warning"><a class=" text-decoration-none text-white" href="shop.html">Explore</a></button>
+                    <button class="btn text-blck border-black mx-4">learn More</button>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center d-none d-sm-block">
+                    <img src="image/123.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Products -->
+    <section id="products" class="products p-5 mt-5">
+        <div class="container">
+            <h2 class="text-center mb-3 text-warning">
+                Our Products
+            </h2>
+            <p class=" text-center mb-5 text-white">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, tempora deleniti eum eaque beatae veritatis.
+            </p>
+
+
+            
+            <div class="row g-4">
+                <!-- card 1 -->
+                <div class="col-md-6 col-lg-4 p-4">
+                    <div class="card productItems">
+                        <div class="card-body text-center">
+                          <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"  class="img-fluid item-img">
+                          <p class="title mt-2 text-start">men's clothing</p>
+                          <p class="price text-warning mt-4 text-start"> $109.95</p>
+                          <p class="desc mt-2 text-start">Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <button class="btn px-5 add-to-cart-btn mx-2">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                
+
+                <!-- card 2 -->
+                    <div class="col-md-6 col-lg-4 p-4">
+                        <div class="card productItems">
+                            <div class="card-body text-center">
+                              <img src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"class="img-fluid item-img">
+                              <p class="title mt-2 text-start">men's clothing</p>
+                              <p class="price text-warning mt-4 text-start"> $ 22.3</p>
+                              <p class="desc mt-2 text-start">Mens Casual Premium Slim Fit T-Shirts</p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <button class="btn px-5 add-to-cart-btn mx-2">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- card 3 -->
+                    <div class="col-md-6 col-lg-4 p-4">
+                        <div class="card productItems">
+                            <div class="card-body text-center">
+                              <img src="https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"class="img-fluid item-img">
+                              <p class="title mt-2 text-start">jewelery</p>
+                              <p class="price text-warning mt-4 text-start"> $ 695</p>
+                              <p class="desc mt-2 text-start">John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet</p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <button class="btn px-5 add-to-cart-btn mx-2">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+               
+            </div>
+            <div class="text-center">
+                <button class="btn p-3 mt-4"> <a href="shop.html" class="text-decoration-none text-white explore-btn">Explore more >></a> </button>
+            </div>
+            
+
+        </div>
+    </section>
+
+
+
+
+    <!-- Why Choose Us Section -->
+		<div class="why-choose-section py-5 mt-5">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-6 pt-4">
+						<h2 class="section-title text-center text-sm-start text-warning">Why Choose Us</h2>
+						<p class="text-center text-sm-start">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, repellat esse? Minima aperiam dolor nulla.</p>
+
+						<div class="row my-5">
+							<div class="col-6 col-md-6">
+								<div class="feature text-center">
+									<div class="icon">
+										<img src="image/truck.svg" alt="Image" class="imf-fluid">
+									</div>
+									<h3> Free Shipping</h3>
+									<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+								</div>
+							</div>
+
+							<div class="col-6 col-md-6">
+								<div class="feature text-center">
+									<div class="icon">
+										<img src="image/bag.svg" alt="Image" class="imf-fluid">
+									</div>
+									<h3>Easy to Shop</h3>
+									<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+								</div>
+							</div>
+
+							<div class="col-6 col-md-6">
+								<div class="feature text-center">
+									<div class="icon">
+										<img src="image/support.svg" alt="Image" class="imf-fluid">
+									</div>
+									<h3>24/7 Support</h3>
+									<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+								</div>
+							</div>
+
+							<div class="col-6 col-md-6">
+								<div class="feature text-center">
+									<div class="icon">
+										<img src="image/return.svg" alt="Image" class="imf-fluid">
+									</div>
+									<h3>Free Returns</h3>
+									<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+                <div class="col-lg-5">
+                    <div class="img-wrap mt-md-5">
+                        <img src="image/122.jpg" alt="Image" class="img-fluid">
+                    </div>
+                </div>
+			</div>
+		</div>
+</div>
+
+
+<footer class="p-5 mt-5 text-white text-center position-relative">
+    <div class="container">
+        <p >Copyright &copy; 2021 Online Store</p>
+        <a href="" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+    </div>
+</footer>
+
+
+
+
+<!-- modal -->
+<div
+    class="modal fade"
+    id="cart"
+    tabindex="-1"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="cartLabel">Cart Items</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="container">
+            <div class="modal-body">
+                <div class="list-cart" >
+                    
+                    
+                </div>
+                <div class="d-flex">
+                    <div>Total Price : </div>
+                    <span class="cart-total-price">$0</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal-footer">
+            <button
+            type="button"
+            class="btn btn-primary btn-purchase"
+            
+          >
+            Purchase
+          </button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="script/bootstrap.bundle.min.js"></script>
+    <script src="script/script.js"></script>
+
+</body>
+</html>

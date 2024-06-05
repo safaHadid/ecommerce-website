@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Page</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Store.</a>
+
+
+            <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu"
+            >
+            <span class="navbar-toggler-icon">
+                
+            </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="shop.html" class="nav-link">SHOP</a>
+                    </li>
+                  <li class="nav-item">
+                    <a href="contact.html" class="nav-link">CONTACT US</a>
+                </li>
+                </ul>
+                <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+                    <li><a class="nav-link" data-bs-toggle="modal" data-bs-target="#cart" href="#"><img src="image/cart.svg"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6  mt-5 text-center text-sm-start">
+                    <h1 class="mb-3 text-warning">OUR PRODUCTS</h1>
+                    <p class="text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus dicta recusandae doloribus soluta fuga aspernatur vero! Voluptatibus ab est voluptates!
+                    </p>
+                </div>
+                <div class="col-md-6 text-center d-none d-sm-block">
+                    <img src="image/123.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter & search-->
+    <section class="filter-and-search mt-5">
+        <div class="container">
+            
+            <div class="filter-btns d-sm-flex text-center mt-5">
+                
+            </div>
+            
+    </section>
+
+    <!-- products list -->
+
+    <section id="products" class="p-5">
+        <div class="container">
+            <div class="product row g-5 text-center">
+            
+      
+
+            </div>
+        </div>
+</section>
+
+    
+    
+
+
+    <!-- footer -->
+    <footer class="p-5 mt-5 text-white text-center position-relative">
+        <div class="container">
+            <p >Copyright &copy; 2021 Online Store</p>
+            <a href="" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+    
+
+
+
+  <!-- Modal -->
+  <div
+    class="modal fade"
+    id="cart"
+    tabindex="-1"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="cartLabel">Cart Items</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="container">
+            <div class="modal-body">
+                <div class="list-cart" >
+                    
+                    
+                </div>
+                <div class="d-flex">
+                    <div>Total Price : </div>
+                    <span class="cart-total-price">$0</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-primary btn-purchase"
+            
+          >
+            Purchase
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    
+    
+        <script src="script/bootstrap.bundle.min.js"></script>
+        <script src="script/script.js"></script>
+</body>
+</html>
